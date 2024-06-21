@@ -1,0 +1,536 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.26f1 (ec6cd8118806) revision 15494360'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32399 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/lbutler/Documents/GitHub/Programming-Theory-Repo/Labyrinth
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62686
+Successfully changed project path to: C:/Users/lbutler/Documents/GitHub/Programming-Theory-Repo/Labyrinth
+C:/Users/lbutler/Documents/GitHub/Programming-Theory-Repo/Labyrinth
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26152] Host "[IP] 192.168.203.63 [Port] 0 [Flags] 2 [Guid] 1404789457 [EditorId] 1404789457 [Version] 1048832 [Id] WindowsEditor(7,Lenovo-MJ0LMRCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26152] Host "[IP] 192.168.203.63 [Port] 0 [Flags] 2 [Guid] 1404789457 [EditorId] 1404789457 [Version] 1048832 [Id] WindowsEditor(7,Lenovo-MJ0LMRCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 7.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.26f1 (ec6cd8118806)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lbutler/Documents/GitHub/Programming-Theory-Repo/Labyrinth/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX A2000 12GB (ID=0x2571)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.3598
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007976 seconds.
+- Loaded All Assemblies, in  0.307 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.172 seconds
+Domain Reload Profiling: 478ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (96ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (173ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (135ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling: 1009ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (468ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3668 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.3 MB). Loaded Objects now: 4152.
+Memory consumption went from 170.8 MB to 169.5 MB.
+Total: 2.500300 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.045400 ms  DeleteObjects: 0.238500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 333459.498268 seconds.
+  path: Assets/ImpactSounds/Impact_Big_Reverb_01/SFX-impact-big-reverb-01_wav.wav
+  artifactKey: Guid(18f6ee3bb20c6f64597927071eb629dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Big_Reverb_01/SFX-impact-big-reverb-01_wav.wav using Guid(18f6ee3bb20c6f64597927071eb629dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81611bfb89d060a6be8c02c08f56626') in 0.075720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.135736 seconds.
+  path: Assets/ImpactSounds/Impact_Big_Soft_01
+  artifactKey: Guid(a47797643a947b34fb4756384bf91bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Big_Soft_01 using Guid(a47797643a947b34fb4756384bf91bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906bca109ba75704cb3728fb0d312854') in 0.000351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.949829 seconds.
+  path: Assets/ImpactSounds/Impact_Bottles_01
+  artifactKey: Guid(91887eacae3cf6442a044f4b861edbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Bottles_01 using Guid(91887eacae3cf6442a044f4b861edbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6119d47ecbb9a0590db1fa5aaa71adf') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.942959 seconds.
+  path: Assets/ImpactSounds/Impact_Can_Raw_01
+  artifactKey: Guid(4c19c87196dcdbb44822ec841a2fc52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Can_Raw_01 using Guid(4c19c87196dcdbb44822ec841a2fc52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd404ee1be78a0e5ad66652e6525579ba') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.092638 seconds.
+  path: Assets/ImpactSounds/Impact_Cinematic_01
+  artifactKey: Guid(4a3c671f415695a4fa12633977c3ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Cinematic_01 using Guid(4a3c671f415695a4fa12633977c3ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bae9a8c155776df2138dcc16ff674c') in 0.000349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.623887 seconds.
+  path: Assets/ImpactSounds/Impact_Distant_01
+  artifactKey: Guid(e390f3e6dec9d7743a4d0447023de700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Distant_01 using Guid(e390f3e6dec9d7743a4d0447023de700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d8b5a23525cd4c6458a12b26ebe62f') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.652569 seconds.
+  path: Assets/ImpactSounds/Impact_Cinematic_01/SFX-impact-cinematic-reverb-delay-01_wav.wav
+  artifactKey: Guid(2b6c699e05227194ab2b626a271f94c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Cinematic_01/SFX-impact-cinematic-reverb-delay-01_wav.wav using Guid(2b6c699e05227194ab2b626a271f94c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb54b907c13c981e55eb1b27c903545') in 0.024918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.263186 seconds.
+  path: Assets/ImpactSounds/Impact_Distant_Shot_01
+  artifactKey: Guid(6161f4662b9221e4e87b9077dbaf7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Distant_Shot_01 using Guid(6161f4662b9221e4e87b9077dbaf7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99a0cc74bd3887bafdbc7e643a65ff2') in 0.000340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.419581 seconds.
+  path: Assets/ImpactSounds/Impact_Distant_01/SFX-impact-distant-01_sfx.wav
+  artifactKey: Guid(9457a6419d676504eb171205af41943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Distant_01/SFX-impact-distant-01_sfx.wav using Guid(9457a6419d676504eb171205af41943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db17892bc9f0ecee3be5a515e4022b79') in 0.022494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/ImpactSounds/Impact_Distant_01/SFX-impact-distant-06_sfx.wav
+  artifactKey: Guid(63fc616db551dc34f8d0519b6ebfaa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Distant_01/SFX-impact-distant-06_sfx.wav using Guid(63fc616db551dc34f8d0519b6ebfaa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48695e11ac1dcb65fa628ed3f189773') in 0.036347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.619698 seconds.
+  path: Assets/ImpactSounds/Impact_Light_Raw_01
+  artifactKey: Guid(a2314e049d7be0c4880021f0bd3cdd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Light_Raw_01 using Guid(a2314e049d7be0c4880021f0bd3cdd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc635a61e9ea4f1a6887ce9ae8e1357b') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.495321 seconds.
+  path: Assets/ImpactSounds/Impact_Mechanical_01
+  artifactKey: Guid(a0ba5213dc2a7904cbe795c292db00a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Mechanical_01 using Guid(a0ba5213dc2a7904cbe795c292db00a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5ad1d6802908319801230dadf82ac7') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.837310 seconds.
+  path: Assets/ImpactSounds/Impact_High_Dry_01
+  artifactKey: Guid(4b3b9d4a704e33a47b3e4dce4649ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_High_Dry_01 using Guid(4b3b9d4a704e33a47b3e4dce4649ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c908769fa84222a6a3a27663e32c03') in 0.000333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.911835 seconds.
+  path: Assets/ImpactSounds/Impact_High_End_01
+  artifactKey: Guid(9129c03171106ff428dc9ab9d57d70c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_High_End_01 using Guid(9129c03171106ff428dc9ab9d57d70c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f889f4b2259ea335f01c2149d5ee0d') in 0.000362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.457863 seconds.
+  path: Assets/ImpactSounds/Impact_High_Reverb_01
+  artifactKey: Guid(5754f3f039dd43b4d9c90e250371b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_High_Reverb_01 using Guid(5754f3f039dd43b4d9c90e250371b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42aceaa60005e8e330b0c44af50fe7c') in 0.000352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.405622 seconds.
+  path: Assets/ImpactSounds/Impact_Jar_01
+  artifactKey: Guid(46c6770b3657bce4f91bc6a68e376fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Jar_01 using Guid(46c6770b3657bce4f91bc6a68e376fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d7e0df631aed4e681e505b03a8a107') in 0.000346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.997948 seconds.
+  path: Assets/ImpactSounds/Impact_Mechanical_01/SFX-impact-mechanical-01_wav.wav
+  artifactKey: Guid(80bdbe41e8f0ed14dadb7509bc249492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Mechanical_01/SFX-impact-mechanical-01_wav.wav using Guid(80bdbe41e8f0ed14dadb7509bc249492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528b8d01b1eddd7cbf3f6612bcfbe1f0') in 0.018883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImpactSounds/Impact_Mechanical_01/SFX-impact-mechanical-06_wav.wav
+  artifactKey: Guid(bf46239d1fe3b554f852b97f980a3f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Mechanical_01/SFX-impact-mechanical-06_wav.wav using Guid(bf46239d1fe3b554f852b97f980a3f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267c401c2e8356e6e44c8edf770a71b4') in 0.013452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.848668 seconds.
+  path: Assets/ImpactSounds/Impact_Metal_01
+  artifactKey: Guid(b6165687a0327e24fb3b7d44d6683eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Metal_01 using Guid(b6165687a0327e24fb3b7d44d6683eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2c1307108f3b7d64abf226d373076a') in 0.000351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.651925 seconds.
+  path: Assets/ImpactSounds/Impact_Metal_01/SFX-impact-metal-01_wav.wav
+  artifactKey: Guid(6b16d41317ffb7f4f963895af69513d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Metal_01/SFX-impact-metal-01_wav.wav using Guid(6b16d41317ffb7f4f963895af69513d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdb46d049018959c0531824a8d903c3') in 0.016712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ImpactSounds/Impact_Metal_01/SFX-impact-metal-06_wav.wav
+  artifactKey: Guid(84371f38e39a99c42ab0416503787841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Metal_01/SFX-impact-metal-06_wav.wav using Guid(84371f38e39a99c42ab0416503787841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a662110e45ef65398998e368997baee') in 0.013104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.359635 seconds.
+  path: Assets/ImpactSounds/Impact_Plastic_Raw_01
+  artifactKey: Guid(b9247c34f70630f489b71bf3e9e357d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Plastic_Raw_01 using Guid(b9247c34f70630f489b71bf3e9e357d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e67b4bfebb4a63d88140440f422ad39') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.727069 seconds.
+  path: Assets/ImpactSounds/Impact_Plastic_Raw_01/SFX-impact-plastic-raw-01_wav.wav
+  artifactKey: Guid(e45f359e9cd33ef4d9ee02900859cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Plastic_Raw_01/SFX-impact-plastic-raw-01_wav.wav using Guid(e45f359e9cd33ef4d9ee02900859cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c171b14874dfbccb9703149ad9b2e88a') in 0.011098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.859975 seconds.
+  path: Assets/ImpactSounds/Impact_Pot_01
+  artifactKey: Guid(855203de190ac014c9a86ed0eca68e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Pot_01 using Guid(855203de190ac014c9a86ed0eca68e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47956bf24624504b11b80f59fd3bfce9') in 0.000343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.045245 seconds.
+  path: Assets/ImpactSounds/Impact_Pot_01/SFX-impact-pot-01_wav.wav
+  artifactKey: Guid(b842a3caa77705a4390220ba372c0fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Pot_01/SFX-impact-pot-01_wav.wav using Guid(b842a3caa77705a4390220ba372c0fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec4f7d2d4319f1e6deb27cf181f76a') in 0.018865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.097852 seconds.
+  path: Assets/ImpactSounds/Impact_Punch_Bag_01
+  artifactKey: Guid(93402cfb6fbb41645b97fd39cbe26ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Punch_Bag_01 using Guid(93402cfb6fbb41645b97fd39cbe26ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb31e3e4d241d3014028a98ce8e4ff8') in 0.000338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.513095 seconds.
+  path: Assets/ImpactSounds/Impact_Punch_Bag_01/SFX-impact-punch-bag-01_wav.wav
+  artifactKey: Guid(a1c0c64bdf64f99419ba7c5329c1a63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Punch_Bag_01/SFX-impact-punch-bag-01_wav.wav using Guid(a1c0c64bdf64f99419ba7c5329c1a63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781930f145c3ffee41c048877c730075') in 0.013461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.344668 seconds.
+  path: Assets/ImpactSounds/Impact_Raw_01
+  artifactKey: Guid(68a172b733ca4924c9f4f013d48395c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Raw_01 using Guid(68a172b733ca4924c9f4f013d48395c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7986ea0ab52e2774a0426429388a464f') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.982673 seconds.
+  path: Assets/ImpactSounds/Impact_Raw_01/SFX-impact-raw-01_sfx.wav
+  artifactKey: Guid(2702f9f2ff5ce40418978cfe26945fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Raw_01/SFX-impact-raw-01_sfx.wav using Guid(2702f9f2ff5ce40418978cfe26945fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249492604cb40a39e5e408653ec07f65') in 0.012758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.016330 seconds.
+  path: Assets/ImpactSounds/Impact_Saturated_Retro_01
+  artifactKey: Guid(e88618d86b442df4f9737a6ba28e9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Saturated_Retro_01 using Guid(e88618d86b442df4f9737a6ba28e9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82f22e05b5ecdaeceb1d24d88491c79') in 0.000339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.158072 seconds.
+  path: Assets/ImpactSounds/Impact_Saturated_Retro_01/SFX-impact-saturated-retro-01_wav.wav
+  artifactKey: Guid(16286d73462da74409870b07da407ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Saturated_Retro_01/SFX-impact-saturated-retro-01_wav.wav using Guid(16286d73462da74409870b07da407ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b82c8d9769ccad5b9002a6111bc083') in 0.019615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.181860 seconds.
+  path: Assets/ImpactSounds/Impact_Simple_01
+  artifactKey: Guid(5dabed990fffc994a8780e8dfafc9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Simple_01 using Guid(5dabed990fffc994a8780e8dfafc9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9724b8e47d193623e15a98f84f15730') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.854759 seconds.
+  path: Assets/ImpactSounds/Impact_Simple_01/SFX-impact-simple-01_wav.wav
+  artifactKey: Guid(4047aaaa19814be44ae0f40e9b70e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Simple_01/SFX-impact-simple-01_wav.wav using Guid(4047aaaa19814be44ae0f40e9b70e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564654283191944e6dfb48436d8cef5f') in 0.019244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.563958 seconds.
+  path: Assets/ImpactSounds/Impact_Strong_Light_01
+  artifactKey: Guid(d1f0a51e2f82ef342a16c8ddedb54151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Strong_Light_01 using Guid(d1f0a51e2f82ef342a16c8ddedb54151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0453050de1eba2dc82dae2bbca82b592') in 0.000366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.541076 seconds.
+  path: Assets/ImpactSounds/Impact_Strong_01
+  artifactKey: Guid(6b2475df15870af419ae5675ff299898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Strong_01 using Guid(6b2475df15870af419ae5675ff299898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a393d7bf05d4b3ddcb8aa175c62ea99d') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.688829 seconds.
+  path: Assets/ImpactSounds/Impact_Strong_Light_01/SFX-impact-strong-light-01_wav.wav
+  artifactKey: Guid(326f39bf60f5b68458842dd7de723468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Strong_Light_01/SFX-impact-strong-light-01_wav.wav using Guid(326f39bf60f5b68458842dd7de723468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb2f94326fb7949ec805e74f89183b1') in 0.013438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.153429 seconds.
+  path: Assets/ImpactSounds/Impact_Wood_Drum_01
+  artifactKey: Guid(f0e5bcc345d564d499161f7d7ca062b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Wood_Drum_01 using Guid(f0e5bcc345d564d499161f7d7ca062b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac79805aa19165ad34f7c5d298ef35d4') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.945513 seconds.
+  path: Assets/ImpactSounds/Impact_Wood_Drum_01/SFX-impact-wood-drum-01_wav.wav
+  artifactKey: Guid(1a312faea9624434ca4f4e302276a800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Wood_Drum_01/SFX-impact-wood-drum-01_wav.wav using Guid(1a312faea9624434ca4f4e302276a800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266710df5f142db8a245b75f1f6e895f') in 0.013458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.125454 seconds.
+  path: Assets/ImpactSounds/Impact_Wood_Metal_01
+  artifactKey: Guid(3bc2bdce22129b0499a58629f215399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Wood_Metal_01 using Guid(3bc2bdce22129b0499a58629f215399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c658b0b059c16f0ef15aa4190ff8019') in 0.000357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.464919 seconds.
+  path: Assets/ImpactSounds/Impact_Wood_Metal_01/SFX-impact-wood-metal-01_wav.wav
+  artifactKey: Guid(c950468c3a33b1a41b28c62ca9aeee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Wood_Metal_01/SFX-impact-wood-metal-01_wav.wav using Guid(c950468c3a33b1a41b28c62ca9aeee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f839bab07ceea161425df38757e821') in 0.009284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.346197 seconds.
+  path: Assets/ImpactSounds/Impact_Wood_Raw_01
+  artifactKey: Guid(5c46062f0446fc348b7f518a75099523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Wood_Raw_01 using Guid(5c46062f0446fc348b7f518a75099523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3083931538403fdb64533da5a1a6a38e') in 0.000344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050591 seconds.
+  path: Assets/ImpactSounds/Impact_Wood_Raw_01/SFX-impact-wood-raw-01_wav.wav
+  artifactKey: Guid(7aad5bdc63c899546a1956442377a365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Wood_Raw_01/SFX-impact-wood-raw-01_wav.wav using Guid(7aad5bdc63c899546a1956442377a365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899a8e31ee30c66253d9a6cc60fea9c7') in 0.017746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ImpactSounds/Impact_Wood_Raw_01/SFX-impact-wood-raw-08_wav.wav
+  artifactKey: Guid(8350c2ae2b8fbba4799a79ca44f8598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImpactSounds/Impact_Wood_Raw_01/SFX-impact-wood-raw-08_wav.wav using Guid(8350c2ae2b8fbba4799a79ca44f8598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af786792a6a790683563e22efbf937a3') in 0.008592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
