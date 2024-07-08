@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5526008692980927874}
   - component: {fileID: 2644432605697072134}
   - component: {fileID: 7055934539767895030}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Floor1 Exterior Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: b9224de3e3b2ce646af726cc0ab7cfa8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

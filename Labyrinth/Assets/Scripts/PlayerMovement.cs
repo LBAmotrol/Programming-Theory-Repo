@@ -1,26 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.IO.Compression;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
     private CharacterController controller;
-    public float speed = 10f;
-    public float gravity = -9.81f * 2;
-    public float jumpHeight = 3;
+    [SerializeField] private AudioClip orbSFX;
+    private AudioSource[] speakers;
+    [SerializeField] private float speed = 10f;
+    [SerializeField] private float gravity = -9.81f;
+    [SerializeField] private float jumpHeight = 3;
     private Vector3 velocity;
 
-    public Transform groundCheck;
-    public float groundDistance = .4f;
-    public LayerMask groundMask;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private float groundDistance = .4f;
+    [SerializeField] private LayerMask groundMask;
     private bool isGrounded;
+    private bool canJump;
+    private int numOrbs;
+
+    
 
     void Awake(){
         controller = GetComponent<CharacterController>();
+        speakers = GetComponents<AudioSource>();
     }
 
     // Update is called once per frame
@@ -32,7 +33,6 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = -2f;
         }
 
-
         float xInput = Input.GetAxis("Horizontal");
         float zInput = Input.GetAxis("Vertical");
 
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(speed * Time.deltaTime * move);
 
-        if(Input.GetButtonDown("Jump") && isGrounded){
+        if(Input.GetButtonDown("Jump") && isGrounded && canJump){
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
@@ -48,10 +48,29 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
-    
+
+    // encapsulation using getters and setters    
+    public void SetSpeed(float speed){
+        this.speed = speed;
+    }
+
+    public float GetSpeed(){
+        return speed;
+    }
+
+    public void EnableJump(){
+        canJump = true;
+    }
+
     void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Ground")){
             isGrounded = true;
+        } else if(other.gameObject.CompareTag("Orb")){
+            other.GetComponent<OrbController>().OrbBonus(gameObject);
+            Destroy(other.gameObject);
+            speakers[1].clip = orbSFX;
+            speakers[1].Play();
+            numOrbs++;
         }
     }
     void OnTriggerExit(Collider other){

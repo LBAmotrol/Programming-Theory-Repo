@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HouseTriggerController : MonoBehaviour
 {
-    public HouseController house;
-    public bool oneTimeUse = true;
+    [SerializeField] HouseController house;
+    [SerializeField] bool oneTimeUse = true;
+    [SerializeField] EnemyAI[] Enemies;
     private bool active = true;
 
     void OnTriggerEnter(Collider other){
@@ -15,10 +13,18 @@ public class HouseTriggerController : MonoBehaviour
         }
 
         if (other.gameObject.CompareTag("Player")){
+            foreach(EnemyAI enemy in Enemies){
+                enemy.HuntPlayer();
+            }
+            
             if(oneTimeUse){
                 active = false;
             }
-            GetComponent<AudioSource>().Play();
+            foreach(AudioSource audio in GetComponents<AudioSource>()){
+                audio.Play();
+                Debug.Log("played audio");
+            }
+
             StartCoroutine(house.ShowFloors());
         }
     }
